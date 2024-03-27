@@ -43,5 +43,48 @@ let booleanIsLoggedIn = Boolean(isloggedIn);
 let number = 33;
 let stringNumber = String(number);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ****************** OPERATIONS ********************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let str1 = "maitreya";
+let str2 = " panigrahi"
+
+// console.log(str1 + str2);
+
+// console.log("1" + 2);
+
+// console.log("1" + 2 + 2);
+
+// console.log(1 + 2 + "2");
+
+// console.log(1 + "2" + 2);
+
+// console.log(+false); // 0 +true => 1
+// console.log(+"") // 0
+
+
+let num1 ,num2 , num3
+
+let gameCounter = 100;
+console.log(gameCounter++) ;
+console.log(gameCounter);
+
+/* gameCounter++ / gameCounter-- -> Postfix  =>If used 
+postfix, with operator after operand
+ (for example, x++), the increment operator 
+increments and returns the value before incrementing.
+
+++gameCounter / --gameCounter  -> Postfix =>If used 
+prefix,with operator before operand (for example, ++x), 
+ the increment operator 
+ increments and returns the value after incrementing.
+*/
+
+
