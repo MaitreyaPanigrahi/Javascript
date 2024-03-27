@@ -84,7 +84,7 @@ increments and returns the value before incrementing.
 ++gameCounter / --gameCounter  -> Postfix =>If used 
 prefix,with operator before operand (for example, ++x), 
  the increment operator 
- increments and returns the value after incrementing.
+  increments and returns the value after incrementing.
 */
 
 
