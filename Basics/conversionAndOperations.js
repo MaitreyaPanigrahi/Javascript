@@ -1,21 +1,21 @@
 let score = "33abc";
 // console.log(typeof score);
 let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log(typeof valueInNumber); // Number
+// console.log(valueInNumber); // NaN
 
 
 
 
 let score2 = null;
 let valueInScore2 = Number(score2);
-// console.log(typeof valueInScore2);
-// console.log(valueInScore2);
+// console.log(typeof valueInScore2); // Number
+// console.log(valueInScore2); // 0
 
 let score3 = undefined;
 let valueInScore3 = Number(score3);
-// console.log(typeof valueInScore3);
-// console.log(valueInScore3);
+// console.log(typeof valueInScore3); // Number
+// console.log(valueInScore3); // NaN
 
 let score4 = false; 
 let valueInScore4 = Number(score4); // true - 1 false - 0
