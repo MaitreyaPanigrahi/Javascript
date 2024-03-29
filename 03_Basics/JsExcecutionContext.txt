@@ -1,0 +1,70 @@
+    ``` JAVASCRIPT EXECUTION CONTEXT```
+
+    ``` Code``` - ```Global EC``` refers with this
+    The global EC is different for browser and different for our local
+     engine like node,bun,dino.
+
+     For browser the this keyword refers to a window object
+
+     -> Global Execution CONTEXT
+     -> Function Execution CONTEXT
+     -> Eval Execution context
+
+
+     CODE -> Memory creation phase/Creation phase
+          -> Execution phase 
+
+    let val1 = 10
+    let val2 = 5
+
+    function addNum(num1,num2){
+        let total = num1 + num2
+        return total
+    }
+
+    let result = addNum(val1,val2)
+    let result2 = addNum(10,2);
+
+    STEPS:-
+    -> Global Execution -> Inside this
+    -> Memory Creation Phase -> val1 = undefined , val2=undefined,
+        addNum = definition,result1 = undefined  , result2 = undefined
+    -> Exection Phase -> val1 = 10 , val2 = 5 , 
+    addNum = Creates another execution context
+    New Execution Context -> new variable environment + Execution thread
+
+    Memory Phase for addNum -> val1 = undefined,val2 = undefined,total=undefined
+    Execution context -> num1 = 10,num2 = 5 total = num1+num2
+
+    total is returned to global execution context
+
+    The new Exection context gets deleted
+
+    result1 = 15
+    result2 = new execution context->new variable environment + execution thread
+    memory phase = num1 = undefined,num2 = undefined,total=undefined
+    execution phase = num1 = 10,num2 = 2 , total = 10+2
+    total returns to global execution context
+
+    new execution context gets deleted
+
+                CALL STACK
+                three()
+                two()                  LIFO
+                one()
+                Global Exection
+
+
+
+
+                
+
+if we have a one(),inside which a two() 
+is there and inside it three() is there
+
+i normal case,once a function() gets executed,
+it gets out of the call stack.
+
+But in the above case it follows LIFO method,i.e. 
+last in first out, that means three() gets out of the call stack first
+then two() followed by one()
