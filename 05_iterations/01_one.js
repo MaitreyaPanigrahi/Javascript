@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-    
-}
-=======
+
 // for loop
 
 // for (/*1 */ let i = 0; /*2 */ i<=10; /*3 */ i++){
