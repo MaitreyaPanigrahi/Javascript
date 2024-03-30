@@ -5,7 +5,7 @@ const myArr2 = new Array(1, 2, 3, 4);
 
 //Array Methods
 
-// myArr.push(99);
+// myArr.push(99); // Push into last of array permanently
 // myArr.push(96);
 // myArr.pop()
 
@@ -17,7 +17,7 @@ const myArr2 = new Array(1, 2, 3, 4);
 
 // const newArr = myArr.join()
 
-// console.log(myArr);// [01,2,3,4,5]
+// console.log(myArr);// [0,1,2,3,4,5]
 // console.log( newArr); // 0,1,2,3,4,5
 // console.log(typeof newArr); // String
 
@@ -29,7 +29,7 @@ const myN1 = myArr.slice(1, 3); // 1 included nd 3 excluded. Return the portion.
 console.log(myN1);  // [1,2]
 console.log("B", myArr); // [0,1,2,3,4,5]
 
-const myN2 = myArr.splice(1, 3); // 1 nd 3 included.Cut the portion from original array and return it.Have impact on original array
+const myN2 = myArr.splice(1, 3); // 3 is the delete count.Cut the portion from original array and return it.Have impact on original array
 console.log(myN2); // [1,2,3]
 console.log("C", myArr); // [0,4,5]
 

@@ -37,3 +37,21 @@ jsUser.greeting2 = function (){
 }
 console.log(jsUser.greeting());
 console.log(jsUser.greeting2());
+
+// Remember if a function is not returning anything,
+// it will return undefined else not return
+
+
+// jsUser.email = "ap@gmai.com"
+// // console.log(jsUser['email']);
+
+// jsUser.greeting = function(){
+        // console.log(`hello js user ${this['email']}`) 
+        // Log result along with an undefined
+//     return (`hello js user ${this['email']}`)
+            // Result will be only return statement
+// }
+
+// const greet = jsUser.greeting()
+
+// console.log(greet);

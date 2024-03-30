@@ -59,7 +59,7 @@ users[1].email;
 
 // console.log(Object.keys(tinderUser)) // Return Arrays
 // console.log(Object.values(tinderUser)) // Return Arrays
-// console.log(Object.entries(tinderUser)) // Return Arrays
+// console.log(Object.entries(tinderUser)) // Return Array of arrays
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')) // Retrun true or false if present
 
 const course = {
@@ -67,7 +67,7 @@ const course = {
   price: "999",
   courseIntructor: "hitesh",
 };
-const { courseIntructor: instructor } = course;
+const { courseIntructor: instructor } = course; // Change key name
 // console.log(courseIntructor);
 
 console.log(instructor);
