@@ -49,4 +49,3 @@ for (let index = 1; index <=20; index++) {
 
     
 }
->>>>>>> b12d498 (for loop)
